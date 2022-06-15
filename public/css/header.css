@@ -1,0 +1,93 @@
+
+header {
+    background-color: var(--amarillo);
+    padding: 1em 1em 2em;
+  }
+  
+  div.top-header {
+    padding: 2.5em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  header picture.logo {
+    max-width: 250px;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    flex-grow: 2;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+  }
+  
+  .form button {
+    border: none;
+    border-left: 1px solid var(--gris-claro);
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .fa-search {
+    padding: 10px;
+    background-color: var(--blanco);
+    color: var(--gris-oscuro);
+    border-radius: 0 5px 5px 0;
+  }
+  
+  header div.top-header p {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  header div.top-header p i {
+    margin-right: 5px;
+  }
+  
+  header nav {
+    font-size: var(--text-sm);
+  }
+  
+  header ul li {
+    list-style-type: none;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: var(--negro);
+  }
+  
+  header div.top-header p {
+    text-align: center;
+  }
+  
+  header nav {
+    display: none;
+  }
+  
+  div.burger-menu {
+    text-align: center;
+  }
+  
+  div.burger-menu i {
+    background-color: #0044aa;
+    font-size: 20px;
+    color: var(--blanco);
+    height: 40px;
+    width: 40px;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,143 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+
+/* VARIABLES */
+
+:root {
+  /* colores */
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --azul-claro: #0022aa;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+  --negro: #000000;
+  --blanco: #ffffff;
+  /* tamaños de fuentes */
+  --text-sm: 1.2em;
+  --text-md: 1.6em;
+  --text-lg: 1.8em;
+  --title-md: 2.4em;
+  /* familias de fuentes */
+  --roboto: "Roboto", sans-serif;
+}
+
+/* ESTILOS COMUNES */
+
+html {
+  font-size: 62.5%;
+  font-family: var(--roboto);
+}
+
+body {
+  background-color: var(--gris-claro);
+}
+
+h2 {
+  font-size: var(--title-md);
+}
+
+h4 {
+  font-size: var(--text-lg);
+}
+
+a {
+  font-size: 14px;
+}
+
+p {
+  font-size: var(--text-sm);
+}
+
+.flex-row {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: var(--celeste);
+  color: var(--blanco);
+  width: 50%;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--azul-claro);
+}
+
+
+/* BANNER */
+
+section.banner img {
+  width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 361px) {
+  .burger-menu {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    list-style: none;
+    font-size: 12px;
+  }
+
+  nav ul li i {
+    padding-left: 5px;
+  }
+
+  .description {
+    opacity: 1;
+  }
+
+  .products-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .products-container article {
+    max-width: 45%;
+  }
+
+  /* main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  } */
+}
+
+@media screen and (min-width: 769px) {
+  .products-container article {
+    max-width: 22%;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+}

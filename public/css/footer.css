@@ -1,0 +1,31 @@
+/* FOOTER*/
+
+footer {
+    margin: 0 auto;
+    padding: 40px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    color: var(--gris-oscuro);
+    background-color: var(--blanco);
+    flex-wrap: wrap;
+  }
+  
+  .contenido-footer {
+    width: 30%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .contenido-footer i {
+    font-size: 28px;
+    color: var(--celeste);
+    margin-bottom: 10px;
+  }
+  
+  .contenido-footer i:hover {
+    color: var(--azul-claro);
+  }
+  
+  .contenido-footer h4 {
+    padding: 8px;
+  }
