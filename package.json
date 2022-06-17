@@ -1,0 +1,23 @@
+{
+  "nombre" : " mercadoliebre " ,
+  "versión" : " 1.0.0 " ,
+  "descripcion" : " Una vil copia de Mercadolibre " ,
+  "principal" : " aplicación.js " ,
+  "guiones" : {
+    "inicio" : " nodo app.js " ,
+    "dev" : " aplicación nodemon.js "
+  },
+  "palabras clave" : [
+    " HTML " ,
+    " CSS " ,
+    " JAVASCRIPT "
+  ],
+  "autor" : " " ,
+  "licencia" : " ISC " ,
+  "dependencias" : {
+    "expreso" : " ^4.17.1 "
+  },
+  "Dependencias de desarrollo" : {
+    "nodemonio" : " ^2.0.15 "
+  }
+}
